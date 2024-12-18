@@ -58,6 +58,11 @@ int main() {
         printf("I valori di A e B vengono trasformati da una porta OR\n");
         int orAB = OR(A, B);
         printf("Il valore di uscita della porta OR è: %d\n", orAB);
+
+        int kg =NOT(AND(A, OR(A, B)));
+        printf("Il valore di uscita della porta kg è: %d\n", kg);
+
+
     }
 
     printf("\n\n");
